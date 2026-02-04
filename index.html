@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Product Card & Registration Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Web Development Lab Assignment</h1>
+    <button id="themeToggle" type="button" aria-pressed="false">🌙 Dark Mode</button>
+</header>
+
+<main>
+
+    <!-- PRODUCT CARD -->
+    <section class="product-section">
+        <div class="product-card">
+            <img src="product.jpg" alt="Product Image" id="productImage">
+            <h2>Wireless Headphones</h2>
+            <p>High quality sound with noise cancellation feature.</p>
+            <span class="price">Rs. 4,999</span>
+            <button id="addToCart">Add to Cart</button>
+            <p class="success-message" id="cartMessage" role="status" aria-live="polite"></p>
+        </div>
+    </section>
+
+    <!-- REGISTRATION FORM -->
+    <section class="form-section">
+        <h2>User Registration</h2>
+
+        <form id="registerForm" novalidate>
+
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullName" autocomplete="name" aria-describedby="fullNameError">
+                <small class="error" id="fullNameError"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" autocomplete="email" aria-describedby="emailError">
+                <small class="error" id="emailError"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <div class="password-box">
+                    <input type="password" id="password" name="password" autocomplete="new-password" aria-describedby="passwordError">
+                    <button type="button" class="toggle" data-target="password" aria-label="Show or hide password">Show</button>
+                </div>
+                <small class="error" id="passwordError"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <div class="password-box">
+                    <input type="password" id="confirmPassword" name="confirmPassword" autocomplete="new-password" aria-describedby="confirmPasswordError">
+                    <button type="button" class="toggle" data-target="confirmPassword" aria-label="Show or hide confirm password">Show</button>
+                </div>
+                <small class="error" id="confirmPasswordError"></small>
+            </div>
+
+            <button type="submit">Register</button>
+            <p class="success-message" id="formSuccess" role="status" aria-live="polite"></p>
+
+        </form>
+    </section>
+
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>

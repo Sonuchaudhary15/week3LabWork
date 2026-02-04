@@ -24,7 +24,6 @@ It demonstrates form validation, UI interaction, error handling, and theme switc
 - Dark mode
 - Light mode
 
-Add your screenshots to the repository (for example in a `screenshots/` folder) and update this section with image links such as:
 
 `![Product Card](screenshots/product-card.png)`
 
