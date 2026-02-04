@@ -19,13 +19,19 @@ It demonstrates form validation, UI interaction, error handling, and theme switc
 3. No server or dependencies required
 
 ## Screenshots
-- Product Card (light mode)
-- Form validation errors (example)
-- Dark mode
-- Light mode
 
+### Product Card (Light Mode)
+![Product Card](screenshots/product-card.png)
 
-`![Product Card](screenshots/product-card.png)`
+### Form Validation Errors
+![Form Validation](screenshots/form-validation.png)
+
+### Dark Mode
+![Dark Mode](screenshots/dark-mode.png)
+
+### Light Mode
+![Light Mode](screenshots/light-mode.png)
+
 
 ## Technologies Used
 - HTML5
