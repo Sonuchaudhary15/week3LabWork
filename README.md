@@ -29,8 +29,6 @@ It demonstrates form validation, UI interaction, error handling, and theme switc
 ### Dark Mode
 ![Dark Mode](screenshots/dark-mode.png)
 
-### Light Mode
-![Light Mode](screenshots/light-mode.png)
 
 
 ## Technologies Used
